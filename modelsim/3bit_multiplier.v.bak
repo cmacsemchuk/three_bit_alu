@@ -1,0 +1,58 @@
+//-------------------------------------------------------------
+// ENGI 4054: Digital VLSI Design
+// Author: Craig Macsemchuk & Natalie Marcinkowski
+//
+// Filename: 3bit_multiplier.v
+// Date: Nov. 27th, 2017
+// Description: Synchonous bitwise AND operation for 3-bit numbers
+//
+// Inputs: Two 3-bit vectors to be AND'd
+// Outputs: One 3-bit vector which is the resultant
+//          of the bitwise AND operation
+//-------------------------------------------------------------
+/*
+module full_adder_core(
+   input in_a, // augend
+   input in_b, // addend
+   input in_c, // carry-in flag
+   output s_out, //summation out
+   output c_out //summation carry out
+*/
+module three_bit_multiplier(
+   input [2:0]a,
+   input [2:0]b,
+   output [5:0]product_out //bitwise AND out
+);
+   //Wires 
+   //first bit
+   wire a0_and_b0_w;
+   wire a1_and_b0_w;
+   wire carry_one_w;
+   //second bit
+   wire a2_and_b0_w;
+   wire a1_and_b2_w;
+   wire a0_and_b2_w;
+   wire carry_two_full_w;
+   wire carry_two_half_w;
+   wire stage_one_out_w;
+   
+
+   // Bit zero
+   and and_a0_b1(product_out[0], a[0],b[0]);
+
+   // Bit one
+   and and_a0_b0(a0_and_b0_w, a[0], b[0]);
+   and and_a1_b0(a1_and_b0_w, a[1], b[0]);
+   half_adder_core ha_one(a0_and_b0_w,a1_and_b0_w,product_out[1],carry_one_wire);
+
+   // Bit two
+   and and_a2_b0(a2_and_b0_w, a[2], b[0]);
+   and and_a1_b2(a1_and_b2_w, a[1], b[2]);
+   and and_a0_b2(a0_and_b2_w, a[0], b[2]);
+   full_adder_core fa_two(a0_and_b0_w,a1_and_b0_w,carry_one_wire,stage_one_out_w,carry_two_full_w);
+   half_adder_core ha_two(a0_and_b2_w,stage_one_out_w,stage_one_out_w,product_out[2],carry_two_half_w);
+
+
+   //assign bw_out[5:3] = 3'b000;
+
+endmodule

@@ -21,6 +21,6 @@ module bitwise_or(
    or or_two(bw_out[1],a[1],b[1]);
    or or_three(bw_out[2],a[2],b[2]);
 
-   assign bw_out[5:3] = 3'b000;
+   //assign bw_out[5:2] = 3'b000;
 
 endmodule

@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Windows/system32
 valu_op_tb
-Z0 !s110 1511978238
+Z0 !s110 1511980800
 !i10b 1
 !s100 ;lZ=BSX8`1VYN@9<]UoN;1
 I@RJW9S5g2RjWXQBR7:MWm2
@@ -23,23 +23,44 @@ Z5 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z6 !s108 1511978238.000000
+Z6 !s108 1511980800.000000
 !s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v|
 !i113 1
 Z7 o-work work
 Z8 tCvgOpt 0
+vbitwise_and
+Z9 !s110 1511980801
+!i10b 1
+!s100 P6BTT4Mebz_N^:MW69>XB3
+IGN6:IKD:g=EhkCV>59RC=3
+R1
+R2
+w1511980537
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v
+Z10 L0 14
+R5
+r1
+!s85 0
+31
+Z11 !s108 1511980801.000000
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v|
+!i113 1
+R7
+R8
 vbitwise_or
 R0
 !i10b 1
-!s100 9Em4L61K9MXzCmdES9H]_1
-IoLSBgDN388l=JHlooQ@=13
+!s100 =3I1Hl7<A1DjU<h>MPLPA3
+IJUSinJ<cmMe=l[DQXb6zl1
 R1
 R2
-R3
+w1511980187
 8C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v
 FC:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v
-Z9 L0 15
+R10
 R5
 r1
 !s85 0
@@ -51,7 +72,7 @@ R6
 R7
 R8
 vdff_sync
-R0
+R9
 !i10b 1
 !s100 e:<eCXC[?<1fSVh:L0EIz0
 IJlUEYaM>YoggoizkoSD@U1
@@ -60,7 +81,7 @@ R2
 R3
 8C:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v
 FC:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v
-R9
+L0 15
 R5
 r1
 !s85 0
@@ -72,7 +93,7 @@ R6
 R7
 R8
 vfull_adder_core
-R0
+R9
 !i10b 1
 !s100 0U5keF]IX7EYWlhOQ62M?1
 IDNIJ_g=7DK?gAgLCSdk[01
@@ -81,19 +102,19 @@ R2
 R3
 8C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v
 FC:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v
-Z10 L0 17
+Z12 L0 17
 R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v|
 !i113 1
 R7
 R8
 vfull_adder_tb
-Z11 !s110 1511978239
+R9
 !i10b 1
 !s100 =PjO4`LQoP@0Vz?Qh3zQA0
 I9amloT^bO9akDGeLTNS7R2
@@ -102,19 +123,19 @@ R2
 R3
 8C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v
 FC:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v
-Z12 L0 10
+Z13 L0 10
 R5
 r1
 !s85 0
 31
-Z13 !s108 1511978239.000000
+R11
 !s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v|
 !i113 1
 R7
 R8
 vhalf_adder_core
-R11
+R9
 !i10b 1
 !s100 >DXgfO<H@5_JoGF7NR8ie0
 IVIKo^UQG0i`@fnZXjS0?:3
@@ -128,7 +149,7 @@ R5
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v|
 !i113 1
@@ -165,7 +186,7 @@ R2
 R3
 8C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v
 FC:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v
-R10
+R12
 R5
 r1
 !s85 0
@@ -186,7 +207,7 @@ R2
 R3
 8C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v
 FC:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v
-R12
+R13
 R5
 r1
 !s85 0
@@ -194,6 +215,27 @@ r1
 R6
 !s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v|
+!i113 1
+R7
+R8
+vthree_bit_multiplier
+!s110 1511989638
+!i10b 1
+!s100 N;^HZ7kDzG>iQ[1DXa5gF0
+Ij=mi[z]XWQLZN0Y[ITm0;2
+R1
+R2
+w1511989637
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_multiplier.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_multiplier.v
+L0 21
+R5
+r1
+!s85 0
+31
+!s108 1511989638.000000
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_multiplier.v|
 !i113 1
 R7
 R8

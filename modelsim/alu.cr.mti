@@ -1,0 +1,71 @@
+C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module bitwise_and
+
+Top level modules:
+	bitwise_and
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module alu_op_tb
+
+Top level modules:
+	alu_op_tb
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module half_adder_core
+
+Top level modules:
+	half_adder_core
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module full_adder_core
+
+Top level modules:
+	full_adder_core
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module bitwise_or
+
+Top level modules:
+	bitwise_or
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module full_adder_tb
+
+Top level modules:
+	full_adder_tb
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module three_bit_full_adder_core
+
+Top level modules:
+	three_bit_full_adder_core
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module half_adder_tb
+
+Top level modules:
+	half_adder_tb
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module dff_sync
+
+Top level modules:
+	dff_sync
+
+} {} {}} C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module three_bit_full_adder_tb
+
+Top level modules:
+	three_bit_full_adder_tb
+
+} {} {}}
