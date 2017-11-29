@@ -1,0 +1,10 @@
+# Compile of half_adder_tb.v was successful.
+# Compile of 3bit_full_adder_core.v was successful.
+# Compile of 3bit_full_adder_tb.v was successful.
+# Compile of alu_op_tb.v was successful.
+# Compile of bitwise_or.v was successful.
+# Compile of dff_sync.v was successful.
+# Compile of full_adder_core.v was successful.
+# Compile of full_adder_tb.v was successful.
+# Compile of half_adder_core.v was successful.
+# 9 compiles, 0 failed with no errors.

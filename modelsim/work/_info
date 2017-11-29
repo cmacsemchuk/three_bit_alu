@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Windows/system32
+valu_op_tb
+Z0 !s110 1511978238
+!i10b 1
+!s100 ;lZ=BSX8`1VYN@9<]UoN;1
+I@RJW9S5g2RjWXQBR7:MWm2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Student/Desktop/alu_three_bit/modelsim
+Z3 w1511975942
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v
+Z4 L0 11
+Z5 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1511978238.000000
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/alu_op_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vbitwise_or
+R0
+!i10b 1
+!s100 9Em4L61K9MXzCmdES9H]_1
+IoLSBgDN388l=JHlooQ@=13
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v
+Z9 L0 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_or.v|
+!i113 1
+R7
+R8
+vdff_sync
+R0
+!i10b 1
+!s100 e:<eCXC[?<1fSVh:L0EIz0
+IJlUEYaM>YoggoizkoSD@U1
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/dff_sync.v|
+!i113 1
+R7
+R8
+vfull_adder_core
+R0
+!i10b 1
+!s100 0U5keF]IX7EYWlhOQ62M?1
+IDNIJ_g=7DK?gAgLCSdk[01
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v
+Z10 L0 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_core.v|
+!i113 1
+R7
+R8
+vfull_adder_tb
+Z11 !s110 1511978239
+!i10b 1
+!s100 =PjO4`LQoP@0Vz?Qh3zQA0
+I9amloT^bO9akDGeLTNS7R2
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v
+Z12 L0 10
+R5
+r1
+!s85 0
+31
+Z13 !s108 1511978239.000000
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/full_adder_tb.v|
+!i113 1
+R7
+R8
+vhalf_adder_core
+R11
+!i10b 1
+!s100 >DXgfO<H@5_JoGF7NR8ie0
+IVIKo^UQG0i`@fnZXjS0?:3
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v
+L0 16
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_core.v|
+!i113 1
+R7
+R8
+vhalf_adder_tb
+R0
+!i10b 1
+!s100 :84>I_]?aoICRMihPZRDc2
+Ii74n82;0:jAWIA4WTb1:j2
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_tb.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_tb.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/half_adder_tb.v|
+!i113 1
+R7
+R8
+vthree_bit_full_adder_core
+R0
+!i10b 1
+!s100 90OKbS=ji]lllEclTo=5o1
+I`>S6]299j6EV7zgz_Ha6R2
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_core.v|
+!i113 1
+R7
+R8
+vthree_bit_full_adder_tb
+R0
+!i10b 1
+!s100 9TM^<14H@;cTko1MX9W]z2
+IAc?<?DO<XMzWnCEZMP2`[0
+R1
+R2
+R3
+8C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v
+FC:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Student/Desktop/alu_three_bit/modelsim/3bit_full_adder_tb.v|
+!i113 1
+R7
+R8
