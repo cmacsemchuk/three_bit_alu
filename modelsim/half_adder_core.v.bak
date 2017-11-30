@@ -16,6 +16,7 @@
 module half_adder_core(
    input in_a, // augend
    input in_b, // addend
+   input rst_n, // reset active low
    output s_out, //summation out
    output c_out //summation carry out
 );

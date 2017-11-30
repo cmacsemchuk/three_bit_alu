@@ -17,6 +17,7 @@
 module three_bit_full_adder_core(
    input [2:0]in_a, // 3-bit augend
    input [2:0]in_b, // 3-bit addend
+   input[2:0]in_c, // carry-in flag
    output [5:0]s_out, //6-bit summation out
    output c_out //summation carry out
 );

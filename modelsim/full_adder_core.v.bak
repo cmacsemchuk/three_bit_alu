@@ -18,6 +18,7 @@ module full_adder_core(
    input in_a, // augend
    input in_b, // addend
    input in_c, // carry-in flag
+   input rst_n, // reset active low
    output s_out, //summation out
    output c_out //summation carry out
 );
@@ -29,12 +30,14 @@ wire c_two_w;
 half_adder_core ha_one( //HA1
    .in_a(in_a),
    .in_b(in_b),
+   .rst_n(rst_n),
    .s_out(s_one_w), //wire from s_out HA1 to in_a HA2
    .c_out(c_one_w) //output to carry reg
 );
 half_adder_core ha_two( //HA2
    .in_a(s_one_w), //sum from HA1
    .in_b(in_c), //carry in
+   .rst_n(rst_n),
    .s_out(s_out), //output S is final sum after each HA stage
    .c_out(c_two_w) //output to carry reg
 );

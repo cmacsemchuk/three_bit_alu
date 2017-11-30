@@ -16,10 +16,10 @@ module dff_sync(
    input rst_n,
    input clk,
    input in_sync,
-   output reg sync_out
+   output sync_out
 );
 //----------WIRE/REG---------------------
-
+reg sync_out;
 reg dff_one_out;
 
 always @(posedge clk)
