@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Dec 01 02:28:25 2017
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : three_bit_alu
+Top-level Entity Name : three_bit_alu
+Family : MAX 10
+Total logic elements : 115
+    Total combinational functions : 90
+    Dedicated logic registers : 67
+Total registers : 67
+Total pins : 71
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

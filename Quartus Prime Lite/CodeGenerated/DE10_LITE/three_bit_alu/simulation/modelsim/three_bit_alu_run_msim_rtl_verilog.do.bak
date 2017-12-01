@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v}
+

@@ -1,0 +1,140 @@
+# Reading C:/Software/QuartusLite/modelsim_ase/tcl/vsim/pref.tcl
+# do three_bit_alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Software/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v 
+# -- Compiling module de10lite
+# 
+# Top level modules:
+# 	de10lite
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v 
+# -- Compiling module three_bit_alu
+# 
+# Top level modules:
+# 	three_bit_alu
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/half_adder_core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/half_adder_core.v 
+# -- Compiling module half_adder_core
+# 
+# Top level modules:
+# 	half_adder_core
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/full_adder_core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/full_adder_core.v 
+# -- Compiling module full_adder_core
+# 
+# Top level modules:
+# 	full_adder_core
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v 
+# -- Compiling module led_dff_sync
+# 
+# Top level modules:
+# 	led_dff_sync
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_or.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_or.v 
+# -- Compiling module bitwise_or
+# 
+# Top level modules:
+# 	bitwise_or
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_and.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_and.v 
+# -- Compiling module bitwise_and
+# 
+# Top level modules:
+# 	bitwise_and
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_multiplier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_multiplier.v 
+# -- Compiling module three_bit_multiplier
+# 
+# Top level modules:
+# 	three_bit_multiplier
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_full_adder_core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_full_adder_core.v 
+# -- Compiling module three_bit_full_adder_core
+# 
+# Top level modules:
+# 	three_bit_full_adder_core
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu {C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:07:46 on Dec 01,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu" C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_alu.v 
+# -- Compiling module alu_core
+# 
+# Top level modules:
+# 	alu_core
+# End time: 01:07:46 on Dec 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.alu_core
+# vsim work.alu_core 
+# Start time: 01:08:03 on Dec 01,2017
+# Loading work.alu_core
+# Loading work.bitwise_and
+# Loading work.bitwise_or
+# Loading work.three_bit_full_adder_core
+# Loading work.half_adder_core
+# Loading work.full_adder_core
+# Loading work.three_bit_multiplier
+add wave -position insertpoint sim:/alu_core/*
+force -freeze sim:/alu_core/bbclk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/alu_core/a 111 0
+force -freeze sim:/alu_core/b 101 0
+run
+run
+force -freeze sim:/alu_core/op_code 10 0
+run
+run
+run
+run
+force -freeze sim:/alu_core/op_code 11 0
+run
+run
+run
+# End time: 01:10:28 on Dec 01,2017, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 0

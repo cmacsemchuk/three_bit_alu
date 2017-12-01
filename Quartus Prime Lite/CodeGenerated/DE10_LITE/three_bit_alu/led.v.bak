@@ -1,0 +1,25 @@
+//
+// ENGI 4054: Digital VLSI Design
+// Author: Yushi Zhou
+// Date: Aug. 08, 2017
+// Description:  LED control
+//
+
+
+module sw(
+	input 		          		clk,
+	input 						rst_n,
+	output		 reg    [2:0]	led,
+	input 		        [2:0]	ctrl
+);
+
+
+// connect SW to LED
+always @(posedge clk)
+	begin
+		if (!rst_n)
+			led <= 3'b111 ;
+		else 
+			led <= ctrl ;
+	end
+endmodule

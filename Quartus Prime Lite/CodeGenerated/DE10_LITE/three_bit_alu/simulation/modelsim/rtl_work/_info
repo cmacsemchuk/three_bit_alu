@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/simulation/modelsim
+valu_core
+Z1 !s110 1512108466
+!i10b 1
+!s100 z[I`gz9EFznFjB8mDFR1^1
+IOmROLEVE0;I9UnXa@Jml[2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1512087754
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_alu.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_alu.v
+Z4 L0 13
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1512108466.000000
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_alu.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu
+Z9 tCvgOpt 0
+vbitwise_and
+R1
+!i10b 1
+!s100 P6BTT4Mebz_N^:MW69>XB3
+IK9<XZ38L9UQ;Qg9Bo<NIe3
+R2
+R0
+Z10 w1512000596
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_and.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_and.v
+Z11 L0 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_and.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_and.v|
+!i113 1
+R7
+R8
+R9
+vbitwise_or
+R1
+!i10b 1
+!s100 =3I1Hl7<A1DjU<h>MPLPA3
+I49R=AFHZUHDZ54H=D38:?0
+R2
+R0
+R10
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_or.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_or.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_or.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/bitwise_or.v|
+!i113 1
+R7
+R8
+R9
+vde10lite
+R1
+!i10b 1
+!s100 34VGaoH@f<8[CCWPTTM1[0
+Im4j3ikSeoc]1=TAHdTo]32
+R2
+R0
+w1512107696
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v
+L0 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/led.v|
+!i113 1
+R7
+R8
+R9
+vfull_adder_core
+R1
+!i10b 1
+!s100 V;1NVi5R@i?1XNj<f<FTO3
+I2AhA5[bz`6gAI4]o3iGl<3
+R2
+R0
+w1512003062
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/full_adder_core.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/full_adder_core.v
+Z12 L0 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/full_adder_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/full_adder_core.v|
+!i113 1
+R7
+R8
+R9
+vhalf_adder_core
+R1
+!i10b 1
+!s100 j4nDfd[h_R]nA^D3mUHn91
+IZgBGKYX3z0me6h=CI?oVB2
+R2
+R0
+w1512003068
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/half_adder_core.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/half_adder_core.v
+L0 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/half_adder_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/half_adder_core.v|
+!i113 1
+R7
+R8
+R9
+vled_dff_sync
+R1
+!i10b 1
+!s100 Ibj5>4H3;E==R<?zPh1DY1
+IEcNbZN:maYCEe]@63IQKE0
+R2
+R0
+R3
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v
+L0 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/dff_sync.v|
+!i113 1
+R7
+R8
+R9
+vthree_bit_alu
+R1
+!i10b 1
+!s100 NO[mMFJG994;9SEOiX4Ig3
+IVJSD0P5RL7ohk[0IAbG[f0
+R2
+R0
+w1512107621
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v
+L0 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/three_bit_alu.v|
+!i113 1
+R7
+R8
+R9
+vthree_bit_full_adder_core
+R1
+!i10b 1
+!s100 kIBN6oCo?<17Q@O;SVFTn2
+IAjG[ZW?h9kJGFZfWOigX42
+R2
+R0
+w1512012906
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_full_adder_core.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_full_adder_core.v
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_full_adder_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_full_adder_core.v|
+!i113 1
+R7
+R8
+R9
+vthree_bit_multiplier
+R1
+!i10b 1
+!s100 K>8bUB]S6bn;7[gRiiTi52
+I<O^ig=9_5n?QP_U?j=a7L3
+R2
+R0
+w1512005704
+8C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_multiplier.v
+FC:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_multiplier.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu|C:/Users/Student/Desktop/CodeGenerated/DE10_LITE/three_bit_alu/3bit_multiplier.v|
+!i113 1
+R7
+R8
+R9

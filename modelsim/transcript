@@ -1,1 +1,16 @@
-# 0 compiles, 11 failed with no errors.
+# Error opening C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v
+# Path name 'C:/Users/Student/Desktop/alu_three_bit/modelsim/bitwise_and.v' doesn't exist.
+# Compile of half_adder_tb.v was successful.
+# Compile of 3bit_full_adder_core.v was successful.
+# Compile of 3bit_full_adder_tb.v was successful.
+# Compile of alu_op_tb.v was successful.
+# Compile of bitwise_or.v was successful.
+# Compile of dff_sync.v was successful.
+# Compile of full_adder_core.v was successful.
+# Compile of full_adder_tb.v was successful.
+# Compile of half_adder_core.v was successful.
+# Compile of bitwise_and.v was successful.
+# Compile of 3bit_multiplier.v was successful.
+# Compile of 3bit_alu.v was successful.
+# Compile of bitwise_and.v was successful.
+# 13 compiles, 0 failed with no errors.

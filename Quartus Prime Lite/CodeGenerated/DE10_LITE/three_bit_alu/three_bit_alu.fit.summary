@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Dec 01 02:28:37 2017
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : three_bit_alu
+Top-level Entity Name : three_bit_alu
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 102 / 49,760 ( < 1 % )
+    Total combinational functions : 90 / 49,760 ( < 1 % )
+    Dedicated logic registers : 67 / 49,760 ( < 1 % )
+Total registers : 67
+Total pins : 71 / 360 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

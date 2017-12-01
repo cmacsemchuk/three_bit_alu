@@ -1,0 +1,598 @@
+|three_bit_alu
+MAX10_CLK1_50 => MAX10_CLK1_50.IN3
+HEX0[0] << de10lite:fpga_interface.op_code_dig_one
+HEX0[1] << de10lite:fpga_interface.op_code_dig_one
+HEX0[2] << de10lite:fpga_interface.op_code_dig_one
+HEX0[3] << de10lite:fpga_interface.op_code_dig_one
+HEX0[4] << de10lite:fpga_interface.op_code_dig_one
+HEX0[5] << de10lite:fpga_interface.op_code_dig_one
+HEX0[6] << de10lite:fpga_interface.op_code_dig_one
+HEX0[7] << de10lite:fpga_interface.op_code_dig_one
+HEX1[0] << de10lite:fpga_interface.op_code_dig_two
+HEX1[1] << de10lite:fpga_interface.op_code_dig_two
+HEX1[2] << de10lite:fpga_interface.op_code_dig_two
+HEX1[3] << de10lite:fpga_interface.op_code_dig_two
+HEX1[4] << de10lite:fpga_interface.op_code_dig_two
+HEX1[5] << de10lite:fpga_interface.op_code_dig_two
+HEX1[6] << de10lite:fpga_interface.op_code_dig_two
+HEX1[7] << de10lite:fpga_interface.op_code_dig_two
+HEX2[0] << de10lite:fpga_interface.dig_three
+HEX2[1] << de10lite:fpga_interface.dig_three
+HEX2[2] << de10lite:fpga_interface.dig_three
+HEX2[3] << de10lite:fpga_interface.dig_three
+HEX2[4] << de10lite:fpga_interface.dig_three
+HEX2[5] << de10lite:fpga_interface.dig_three
+HEX2[6] << de10lite:fpga_interface.dig_three
+HEX2[7] << de10lite:fpga_interface.dig_three
+HEX3[0] << de10lite:fpga_interface.dig_four
+HEX3[1] << de10lite:fpga_interface.dig_four
+HEX3[2] << de10lite:fpga_interface.dig_four
+HEX3[3] << de10lite:fpga_interface.dig_four
+HEX3[4] << de10lite:fpga_interface.dig_four
+HEX3[5] << de10lite:fpga_interface.dig_four
+HEX3[6] << de10lite:fpga_interface.dig_four
+HEX3[7] << de10lite:fpga_interface.dig_four
+HEX4[0] << de10lite:fpga_interface.dig_five
+HEX4[1] << de10lite:fpga_interface.dig_five
+HEX4[2] << de10lite:fpga_interface.dig_five
+HEX4[3] << de10lite:fpga_interface.dig_five
+HEX4[4] << de10lite:fpga_interface.dig_five
+HEX4[5] << de10lite:fpga_interface.dig_five
+HEX4[6] << de10lite:fpga_interface.dig_five
+HEX4[7] << de10lite:fpga_interface.dig_five
+HEX5[0] << de10lite:fpga_interface.dig_six
+HEX5[1] << de10lite:fpga_interface.dig_six
+HEX5[2] << de10lite:fpga_interface.dig_six
+HEX5[3] << de10lite:fpga_interface.dig_six
+HEX5[4] << de10lite:fpga_interface.dig_six
+HEX5[5] << de10lite:fpga_interface.dig_six
+HEX5[6] << de10lite:fpga_interface.dig_six
+HEX5[7] << de10lite:fpga_interface.dig_six
+KEY[0] => KEY[0].IN3
+KEY[1] => ~NO_FANOUT~
+LEDR[0] << de10lite:fpga_interface.led
+LEDR[1] << de10lite:fpga_interface.led
+LEDR[2] << de10lite:fpga_interface.led
+LEDR[3] << de10lite:fpga_interface.led
+LEDR[4] << de10lite:fpga_interface.led
+LEDR[5] << de10lite:fpga_interface.led
+LEDR[6] << de10lite:fpga_interface.led
+LEDR[7] << de10lite:fpga_interface.led
+LEDR[8] << de10lite:fpga_interface.led
+LEDR[9] << de10lite:fpga_interface.led
+SW[0] => SW[0].IN2
+SW[1] => SW[1].IN2
+SW[2] => SW[2].IN2
+SW[3] => SW[3].IN2
+SW[4] => SW[4].IN2
+SW[5] => SW[5].IN2
+SW[6] => SW[6].IN2
+SW[7] => SW[7].IN2
+SW[8] => SW[8].IN2
+SW[9] => SW[9].IN2
+
+
+|three_bit_alu|de10lite:fpga_interface
+clk => b_out[0]~reg0.CLK
+clk => b_out[1]~reg0.CLK
+clk => b_out[2]~reg0.CLK
+clk => a_out[0]~reg0.CLK
+clk => a_out[1]~reg0.CLK
+clk => a_out[2]~reg0.CLK
+clk => final_out[0].CLK
+clk => final_out[1].CLK
+clk => final_out[2].CLK
+clk => final_out[3].CLK
+clk => final_out[4].CLK
+clk => final_out[5].CLK
+clk => b[0].CLK
+clk => b[1].CLK
+clk => b[2].CLK
+clk => a[0].CLK
+clk => a[1].CLK
+clk => a[2].CLK
+clk => op_code_out[0]~reg0.CLK
+clk => op_code_out[1]~reg0.CLK
+clk => op_code[0].CLK
+clk => op_code[1].CLK
+clk => dig_six[0]~reg0.CLK
+clk => dig_six[1]~reg0.CLK
+clk => dig_six[2]~reg0.CLK
+clk => dig_six[3]~reg0.CLK
+clk => dig_six[4]~reg0.CLK
+clk => dig_six[5]~reg0.CLK
+clk => dig_six[6]~reg0.CLK
+clk => dig_six[7]~reg0.CLK
+clk => dig_five[0]~reg0.CLK
+clk => dig_five[1]~reg0.CLK
+clk => dig_five[2]~reg0.CLK
+clk => dig_five[3]~reg0.CLK
+clk => dig_five[4]~reg0.CLK
+clk => dig_five[5]~reg0.CLK
+clk => dig_five[6]~reg0.CLK
+clk => dig_five[7]~reg0.CLK
+clk => dig_four[0]~reg0.CLK
+clk => dig_four[1]~reg0.CLK
+clk => dig_four[2]~reg0.CLK
+clk => dig_four[3]~reg0.CLK
+clk => dig_four[4]~reg0.CLK
+clk => dig_four[5]~reg0.CLK
+clk => dig_four[6]~reg0.CLK
+clk => dig_four[7]~reg0.CLK
+clk => dig_three[0]~reg0.CLK
+clk => dig_three[1]~reg0.CLK
+clk => dig_three[2]~reg0.CLK
+clk => dig_three[3]~reg0.CLK
+clk => dig_three[4]~reg0.CLK
+clk => dig_three[5]~reg0.CLK
+clk => dig_three[6]~reg0.CLK
+clk => dig_three[7]~reg0.CLK
+clk => op_code_dig_two[0]~reg0.CLK
+clk => op_code_dig_two[1]~reg0.CLK
+clk => op_code_dig_two[2]~reg0.CLK
+clk => op_code_dig_two[3]~reg0.CLK
+clk => op_code_dig_two[4]~reg0.CLK
+clk => op_code_dig_two[5]~reg0.CLK
+clk => op_code_dig_two[6]~reg0.CLK
+clk => op_code_dig_two[7]~reg0.CLK
+clk => op_code_dig_one[0]~reg0.CLK
+clk => op_code_dig_one[1]~reg0.CLK
+clk => op_code_dig_one[2]~reg0.CLK
+clk => op_code_dig_one[3]~reg0.CLK
+clk => op_code_dig_one[4]~reg0.CLK
+clk => op_code_dig_one[5]~reg0.CLK
+clk => op_code_dig_one[6]~reg0.CLK
+clk => op_code_dig_one[7]~reg0.CLK
+clk => led[0]~reg0.CLK
+clk => led[1]~reg0.CLK
+clk => led[2]~reg0.CLK
+clk => led[3]~reg0.CLK
+clk => led[4]~reg0.CLK
+clk => led[5]~reg0.CLK
+clk => led[6]~reg0.CLK
+clk => led[7]~reg0.CLK
+clk => led[8]~reg0.CLK
+clk => led[9]~reg0.CLK
+carry => led[1]~reg0.DATAIN
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => led.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_three.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+rst_n => dig_four.OUTPUTSELECT
+ctrl[0] => led.DATAA
+ctrl[1] => ~NO_FANOUT~
+ctrl[2] => led.DATAA
+ctrl[2] => op_code[0].DATAIN
+ctrl[3] => led.DATAA
+ctrl[3] => op_code[1].DATAIN
+ctrl[4] => led.DATAA
+ctrl[4] => b_out[0]~reg0.DATAIN
+ctrl[4] => b[0].DATAIN
+ctrl[5] => led.DATAA
+ctrl[5] => b_out[1]~reg0.DATAIN
+ctrl[5] => b[1].DATAIN
+ctrl[6] => led.DATAA
+ctrl[6] => b_out[2]~reg0.DATAIN
+ctrl[6] => b[2].DATAIN
+ctrl[7] => led.DATAA
+ctrl[7] => a_out[0]~reg0.DATAIN
+ctrl[7] => a[0].DATAIN
+ctrl[8] => led.DATAA
+ctrl[8] => a_out[1]~reg0.DATAIN
+ctrl[8] => a[1].DATAIN
+ctrl[9] => led.DATAA
+ctrl[9] => a_out[2]~reg0.DATAIN
+ctrl[9] => a[2].DATAIN
+final_in[0] => final_out[0].DATAIN
+final_in[1] => final_out[1].DATAIN
+final_in[2] => final_out[2].DATAIN
+final_in[3] => final_out[3].DATAIN
+final_in[4] => final_out[4].DATAIN
+final_in[5] => final_out[5].DATAIN
+a_out[0] <= a_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a_out[1] <= a_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a_out[2] <= a_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b_out[0] <= b_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b_out[1] <= b_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b_out[2] <= b_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_out[0] <= op_code_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_out[1] <= op_code_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[0] <= led[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= led[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= led[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= led[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= led[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= led[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= led[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[7] <= led[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[8] <= led[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[9] <= led[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[0] <= op_code_dig_one[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[1] <= op_code_dig_one[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[2] <= op_code_dig_one[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[3] <= op_code_dig_one[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[4] <= op_code_dig_one[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[5] <= op_code_dig_one[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[6] <= op_code_dig_one[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_one[7] <= op_code_dig_one[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[0] <= op_code_dig_two[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[1] <= op_code_dig_two[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[2] <= op_code_dig_two[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[3] <= op_code_dig_two[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[4] <= op_code_dig_two[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[5] <= op_code_dig_two[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[6] <= op_code_dig_two[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_code_dig_two[7] <= op_code_dig_two[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[0] <= dig_three[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[1] <= dig_three[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[2] <= dig_three[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[3] <= dig_three[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[4] <= dig_three[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[5] <= dig_three[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[6] <= dig_three[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_three[7] <= dig_three[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[0] <= dig_four[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[1] <= dig_four[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[2] <= dig_four[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[3] <= dig_four[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[4] <= dig_four[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[5] <= dig_four[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[6] <= dig_four[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_four[7] <= dig_four[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[0] <= dig_five[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[1] <= dig_five[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[2] <= dig_five[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[3] <= dig_five[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[4] <= dig_five[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[5] <= dig_five[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[6] <= dig_five[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_five[7] <= dig_five[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[0] <= dig_six[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[1] <= dig_six[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[2] <= dig_six[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[3] <= dig_six[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[4] <= dig_six[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[5] <= dig_six[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[6] <= dig_six[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_six[7] <= dig_six[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|led_dff_sync:led_sync
+rst_n => dff_one_out.OUTPUTSELECT
+rst_n => sync_out.OUTPUTSELECT
+clk => sync_out[0]~reg0.CLK
+clk => sync_out[1]~reg0.CLK
+clk => sync_out[2]~reg0.CLK
+clk => sync_out[3]~reg0.CLK
+clk => sync_out[4]~reg0.CLK
+clk => sync_out[5]~reg0.CLK
+clk => sync_out[6]~reg0.CLK
+clk => sync_out[7]~reg0.CLK
+clk => sync_out[8]~reg0.CLK
+clk => sync_out[9]~reg0.CLK
+clk => dff_one_out.CLK
+in_sync[0] => dff_one_out.DATAA
+in_sync[1] => ~NO_FANOUT~
+in_sync[2] => ~NO_FANOUT~
+in_sync[3] => ~NO_FANOUT~
+in_sync[4] => ~NO_FANOUT~
+in_sync[5] => ~NO_FANOUT~
+in_sync[6] => ~NO_FANOUT~
+in_sync[7] => ~NO_FANOUT~
+in_sync[8] => ~NO_FANOUT~
+in_sync[9] => ~NO_FANOUT~
+sync_out[0] <= sync_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[1] <= sync_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[2] <= sync_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[3] <= sync_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[4] <= sync_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[5] <= sync_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[6] <= sync_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[7] <= sync_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[8] <= sync_out[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sync_out[9] <= sync_out[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one
+a[0] => a[0].IN4
+a[1] => a[1].IN4
+a[2] => a[2].IN4
+b[0] => b[0].IN4
+b[1] => b[1].IN4
+b[2] => b[2].IN4
+op_code[0] => Mux0.IN1
+op_code[0] => Mux1.IN1
+op_code[0] => Mux2.IN1
+op_code[0] => Mux3.IN1
+op_code[0] => Mux4.IN1
+op_code[0] => Mux5.IN1
+op_code[0] => Decoder0.IN1
+op_code[1] => Mux0.IN0
+op_code[1] => Mux1.IN0
+op_code[1] => Mux2.IN0
+op_code[1] => Mux3.IN0
+op_code[1] => Mux4.IN0
+op_code[1] => Mux5.IN0
+op_code[1] => Decoder0.IN0
+rst_n => carry_out~reg0.ACLR
+rst_n => op_out[0]~reg0.ACLR
+rst_n => op_out[1]~reg0.ACLR
+rst_n => op_out[2]~reg0.ACLR
+rst_n => op_out[3]~reg0.ACLR
+rst_n => op_out[4]~reg0.ACLR
+rst_n => op_out[5]~reg0.ACLR
+bbclk => carry_out~reg0.CLK
+bbclk => op_out[0]~reg0.CLK
+bbclk => op_out[1]~reg0.CLK
+bbclk => op_out[2]~reg0.CLK
+bbclk => op_out[3]~reg0.CLK
+bbclk => op_out[4]~reg0.CLK
+bbclk => op_out[5]~reg0.CLK
+op_out[0] <= op_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_out[1] <= op_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_out[2] <= op_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_out[3] <= op_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_out[4] <= op_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+op_out[5] <= op_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|bitwise_and:u_one
+a[0] => and_one.IN0
+a[1] => and_two.IN0
+a[2] => and_three.IN0
+b[0] => and_one.IN1
+b[1] => and_two.IN1
+b[2] => and_three.IN1
+bw_out[0] <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+bw_out[1] <= and_two.DB_MAX_OUTPUT_PORT_TYPE
+bw_out[2] <= and_three.DB_MAX_OUTPUT_PORT_TYPE
+bw_out[3] <= <GND>
+bw_out[4] <= <GND>
+bw_out[5] <= <GND>
+
+
+|three_bit_alu|alu_core:u_one|bitwise_or:u_two
+a[0] => or_one.IN0
+a[1] => or_two.IN0
+a[2] => or_three.IN0
+b[0] => or_one.IN1
+b[1] => or_two.IN1
+b[2] => or_three.IN1
+bw_out[0] <= or_one.DB_MAX_OUTPUT_PORT_TYPE
+bw_out[1] <= or_two.DB_MAX_OUTPUT_PORT_TYPE
+bw_out[2] <= or_three.DB_MAX_OUTPUT_PORT_TYPE
+bw_out[3] <= <GND>
+bw_out[4] <= <GND>
+bw_out[5] <= <GND>
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three
+in_a[0] => in_a[0].IN1
+in_a[1] => in_a[1].IN1
+in_a[2] => in_a[2].IN1
+in_b[0] => in_b[0].IN1
+in_b[1] => in_b[1].IN1
+in_b[2] => in_b[2].IN1
+s_out[0] <= half_adder_core:ha_one.s_out
+s_out[1] <= full_adder_core:fa_two.s_out
+s_out[2] <= full_adder_core:fa_three.s_out
+s_out[3] <= <GND>
+s_out[4] <= <GND>
+s_out[5] <= <GND>
+c_out <= full_adder_core:fa_three.c_out
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|full_adder_core:fa_two
+in_a => in_a.IN1
+in_b => in_b.IN1
+in_c => in_c.IN1
+s_out <= half_adder_core:ha_two.s_out
+c_out <= or_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|full_adder_core:fa_two|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|full_adder_core:fa_two|half_adder_core:ha_two
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|full_adder_core:fa_three
+in_a => in_a.IN1
+in_b => in_b.IN1
+in_c => in_c.IN1
+s_out <= half_adder_core:ha_two.s_out
+c_out <= or_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|full_adder_core:fa_three|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_full_adder_core:u_three|full_adder_core:fa_three|half_adder_core:ha_two
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four
+a[0] => and_a0_b0.IN0
+a[0] => and_a0_b1.IN0
+a[0] => and_a0_b2.IN0
+a[1] => and_a1_b0.IN0
+a[1] => and_a1_b1.IN0
+a[1] => and_a1_b2.IN0
+a[2] => and_a2_b0.IN0
+a[2] => and_a2_b1.IN0
+a[2] => and_a2_b2.IN0
+b[0] => and_a0_b0.IN1
+b[0] => and_a1_b0.IN1
+b[0] => and_a2_b0.IN1
+b[1] => and_a0_b1.IN1
+b[1] => and_a1_b1.IN1
+b[1] => and_a2_b1.IN1
+b[2] => and_a0_b2.IN1
+b[2] => and_a1_b2.IN1
+b[2] => and_a2_b2.IN1
+product_out[0] <= and_a0_b0.DB_MAX_OUTPUT_PORT_TYPE
+product_out[1] <= half_adder_core:ha_one.port2
+product_out[2] <= half_adder_core:ha_two.port2
+product_out[3] <= full_adder_core:fa_three.port3
+product_out[4] <= full_adder_core:fa_four.port3
+product_out[5] <= full_adder_core:fa_four.port4
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_two
+in_a => in_a.IN1
+in_b => in_b.IN1
+in_c => in_c.IN1
+s_out <= half_adder_core:ha_two.s_out
+c_out <= or_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_two|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_two|half_adder_core:ha_two
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|half_adder_core:ha_two
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|half_adder_core:ha_three
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_three
+in_a => in_a.IN1
+in_b => in_b.IN1
+in_c => in_c.IN1
+s_out <= half_adder_core:ha_two.s_out
+c_out <= or_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_three|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_three|half_adder_core:ha_two
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_four
+in_a => in_a.IN1
+in_b => in_b.IN1
+in_c => in_c.IN1
+s_out <= half_adder_core:ha_two.s_out
+c_out <= or_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_four|half_adder_core:ha_one
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|three_bit_alu|alu_core:u_one|three_bit_multiplier:u_four|full_adder_core:fa_four|half_adder_core:ha_two
+in_a => xor_one.IN0
+in_a => and_one.IN0
+in_b => xor_one.IN1
+in_b => and_one.IN1
+s_out <= xor_one.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= and_one.DB_MAX_OUTPUT_PORT_TYPE
+
+
